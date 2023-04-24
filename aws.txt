@@ -1,0 +1,23 @@
+1.AWS
+ec2 	: is used to launch virtual machines on commodity hardware using aws cloud
+rds 	: is used to create relational databases using aws cloud
+s3  	: is a storage service used to store data in the form of objects and buckets
+iam		: is used to manage access to the users for using aws services
+emr		: is a managed cluster or suite of applications used to resolve the big data problems 
+athena	: is an interactive query service used to analyse data directly from s3 using sql (uses sql on top of s3)
+glue	: is a completely managed ETL tool. it is a serverless integration service  
+lambda	: is a serverless computing service which can create functions.
+appflow : is used to transfer data between Saas applications and aws services
+
+
+
+2.Apache
+spark		: is an distributed processing system used for bigdata workloads.it utilizes in-memeory caching & optimized query execution for faster analytic queries
+sqoop		: is used to perform data transfer operations from relational database to hadoop servers
+cassandra	: is a distributive and decentralized storage system. it is a column based no sql database which can handle bigdata
+hbase		: is a distributive column oriented no sql database
+phoenix		: is a sql interface on top of hbase to use sql queries
+nifi		: is used to automate and manage the flow of data between the software systems
+oozie		: is a workflow scheduler of hadoop. it allows to combine multiple complex jobs to run in a sequential order to achieve bigger task
+kafka		: is a durable message broker. it is a distributed streaming platform that can publish,store,subscribe and process stream of records
+airflow		: is a workflow scheduler of hadoop
